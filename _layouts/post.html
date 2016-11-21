@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<!--<div class="row">-->
+    <!--<div id="myArticle" class="col-sm-9">-->
+    <div id="myArticle" class="">
+        <div class="post-area post">
+            <header>
+                <h1>{{ page.title }}</h1>
+                <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if
+                    page.meta %} • {{ page.meta }}{% endif %}</p>
+            </header>
+            <hr>
+            <article>
+                {{content}}
+            </article>
+            <hr>
+            <!--<div class="ds-share flat" data-thread-key="AIBottle" data-title="{{page.title}}" data-images=""  data-content="点击链接查看" data-url="{{ site.url }}{{page.url}}">-->
+            <div class="ds-share flat" data-thread-key="AIBottle" data-title="{{page.title}}" data-images="AIBottle.github.io/img-folder/share.png"  data-content="点击链接查看" data-url="{{ site.url }}{{page.url}}">
+                <div class="ds-share-inline">
+                    <ul  class="ds-share-icons-16">
+                        <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+                        <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+                        <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+                        <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+                        <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+                    </ul>
+                    <div class="ds-share-icons-more"></div>
+                </div>
+            </div>
+        </div>
+
+        {% include comments.html %}
+
+    </div>
+  <!--  <div id="content" class="col-sm-3">
+        &lt;!&ndash; <div id="myAffix" class="shadow-bottom-center hidden-xs" data-spy="affix" data-offset-top="0" data-offset-bottom="-20"> &ndash;&gt;
+        <div id="myAffix" class="shadow-bottom-center hidden-xs">
+            <div class="categories-list-header">
+                内容
+            </div>
+            <div class="content-text"></div>
+        </div>
+    </div>-->
+<!--</div>-->
