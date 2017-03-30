@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "文章题目"
+title:  "jekyll"
 date:   2015-02-10 15:14:54
 categories: jekyll
 comments: true
