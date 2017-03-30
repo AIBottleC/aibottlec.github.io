@@ -1,7 +1,6 @@
 ---
 layout: post
 categories: web前端
-date: 2016-11-17
 comments: trues
 title: "javascript和jquery基本元素操作对比"
 ---
