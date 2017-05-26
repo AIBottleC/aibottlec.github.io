@@ -3,8 +3,9 @@
  */
 /* commom */
 body {
-	background-image: url(http://7q5cdt.com1.z0.glb.clouddn.com/bg-canvas_bg.jpg);
-    font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
+	/*background-image: url(http://7q5cdt.com1.z0.glb.clouddn.com/bg-canvas_bg.jpg);*/
+    background-image: url("../img/canvas_bg.jpg");
+	font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
 }
 article p{
 	/*text-indent: 2em;*/
@@ -74,7 +75,7 @@ nav{
 .post-list-header{
 	padding: 15px 30px;
 	border-bottom: 1px solid #c0c0c0;
-	font-size: 30px;
+	font-size: 22px;
 	font-weight: bold;
 }
 .post-list-item{
@@ -91,7 +92,7 @@ nav{
 	border-bottom: none;
 }
 .post-list-item h2{
-	font-size: 20px;
+	font-size: 16px;
 	margin: 8px 0 8px 0;
 	padding: 0;
 }
@@ -237,7 +238,7 @@ footer .point{
  */
 .post{
 	padding:10px 30px;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.5;
 	/* -webkit-text-size-adjust: 100%; */
 }
@@ -336,7 +337,6 @@ blockquote:last-child {
 	text-align: center;
 	/*margin: 0 auto;*/
 	/*background-color: #ddd;*/
-
 }
 #fall ul{
 	margin: 0 10px;
